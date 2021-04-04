@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),,S3 Standard,0,507,6084.00,USD,S3 Standard storage (15000 GB per month)
+My Estimate,US East (Ohio),Application servers,Amazon EC2,6307.2,2.4,6336.00,USD,"Operating system (Linux), Quantity (12), Pricing strategy (EC2 Instance Savings Plans 1 Year All Upfront), Storage amount (2 GB), Instance type (a1.xlarge)"
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,39.209,470.51,USD,"Number of Metrics (includes detailed and custom metrics) (64), Standard Logs: Data Ingested (2 GB), Number of Dashboards (2), Number of composite alarms (20), Number of High Resolution Alarm Metrics (10)"
+My Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,707.85,8494.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),,Application Load Balancer,0,126.28999999999999,1515.48,USD,Number of Application Load Balancers (2)
+My Estimate,US East (Ohio),,Classic Load Balancer,0,83.22,998.64,USD,"Number of Classic Load Balancers (2), Processed bytes per CLB (4 GB per hour)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,14736,277.5,18066.00,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (500 GB per month), Nodes (2), Instance Type (db.m4.2xlarge), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (All Upfront), Additional backup storage (500 GB)"
+My Estimate,US East (Ohio),Web servers,Amazon EC2,6307.2,2.4,6336.00,USD,"Operating system (Linux), Quantity (12), Pricing strategy (EC2 Instance Savings Plans 1 Year All Upfront), Storage amount (2 GB), Instance type (a1.xlarge)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+
+The main idea of cost reduction is to switch from on-demand to reserved capacities for EC2 and RDS.
